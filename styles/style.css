@@ -1,0 +1,64 @@
+/* Google font */
+.fira-sans{
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav button{
+    height: 52px;
+    background-color: white;
+    border-radius: 8px;
+    width: 116px;
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+    border: green 1px solid;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    gap: 64px;
+    padding: 0 60px;
+    height: 560px;
+    border-radius: 24px;
+}
+.banner-title{
+    color: #0E0E0E;
+    font-size: 24px;
+}
+.banner-heading{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.banner-heading p{
+    margin: 0px;
+}
+.banner button{
+    background-color: green;
+    color: white;
+    height: 56px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+}
+.banner button:hover{
+    background-color: red;
+}
