@@ -77,7 +77,7 @@ nav button{
     background-color: white;
     
 }
-.piller-heading,.version-title{
+.piller-heading,.version-title,.opinion-title{
     font-size: 40px;
     font-weight: 700;
 }
@@ -135,4 +135,46 @@ nav button{
 }
 .vision-article p{
     margin-top: 4px;
+}
+/* Opinion styles */
+.opinion{
+    margin-bottom: 100px;
+}
+.opinion table{
+    border-collapse: collapse;
+}
+.table-div{
+    height: 410px;
+    padding: 32px;
+}
+.opinion table thead{
+    background-color: rgba(198, 228, 214, 1);
+    align-items: center;
+    padding: 24px 24px;
+}
+.opinion table thead tr td{
+    box-shadow: none;
+}
+.opinion table tr td{
+    border: 0px solid black;
+    padding: 24px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+}
+.opinion table tr,table{
+    width: 1216px;
+    height: 72px;
+}
+#thead{
+    border-right: 0;
+}
+#t2head{
+    border-left: none;
+}
+.opinion table select{
+    height: 44px;
+    width: 152px;
+    background-color:  rgba(198, 228, 214, 1);
+    font-weight: 600;
+    padding-left: 10px;
 }
