@@ -213,10 +213,10 @@ nav button{
     font-style: italic;
 }
 
-.news-btn{
-    background-color: green;
+.news-btn,.btn-donate{
+    background-color: rgb(5, 98, 5);
     color: white;
-    padding: 11px,20px;
+    padding: 11px,26px;
     font-size: 16px;
     font-weight: 600;
     border-radius: 8px;
@@ -224,4 +224,47 @@ nav button{
     height: 40px;
     width: 112px; 
     margin-top: 32px; 
+}
+/* Donate styles */
+.donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.amounts{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.amount{
+    height: 48px;
+    /* width: 160px; */
+    font-size: 40px;
+    font-weight: bold;
+    background-color:white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 40px;
+    border: 0;
+    border-radius: 10px;
+
+}
+.input-donate{
+    width: 80%;
+    padding: 20px 40px;
+    text-align: center;
+    border:0;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: block;
+    
+}
+input:focus{
+    border: 2px solid green;
+    outline: none;
+}
+.btn-donate{
+    margin-top: 0;
 }
