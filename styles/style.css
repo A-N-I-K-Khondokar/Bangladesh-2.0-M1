@@ -303,3 +303,17 @@ input:focus{
     cursor: pointer;
 
 }
+/* footer section */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 80px;
+    padding: 50px 160px;
+    gap:60px;
+}
+.footer-imges{
+    display: flex;
+    gap: 15px;
+}
