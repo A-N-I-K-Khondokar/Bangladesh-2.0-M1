@@ -259,12 +259,47 @@ nav button{
     margin-top: 32px;
     margin-bottom: 32px;
     display: block;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
     
 }
 input:focus{
-    border: 2px solid green;
+    border: green;
     outline: none;
 }
 .btn-donate{
     margin-top: 0;
+}
+/* subscribe styles */
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 80px 100px;
+    border: 0;
+}
+.subscribe input[type="text"]{
+    background-color: white;
+    width: 600px;
+    padding: 18px 40px;
+    border: 0;
+
+}
+.subscribe-btn{
+    background-color: rgb(5, 98, 5);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+    padding: 17px 34px;
+    height: 52px;
+    margin-top: 0;
+    cursor: pointer;
+
 }
